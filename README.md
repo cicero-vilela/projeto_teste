@@ -43,13 +43,13 @@ Clique no botão **Use this template** para criar um novo repositório com base 
 1. Faça o clone do repositório que será criado a partir deste modelo.
 
     ```bash
-    git clone ENDERECO_DO_REPOSITORIO
+    git clone git@github.com:cicero-vilela/projeto_teste.git
     ```
 
-2. Crie um ambiente virtual para o seu projeto utilizando o gerenciador de ambientes de sua preferência.
+2. Crie um ambiente virtual para o seu projeto utilizando o conda.
 
   ```bash
-  conda env export > ambiente.yml
+  conda env create -f ambiente.yml --name estatística 
   ```
 
 ## Um pouco mais sobre a base
